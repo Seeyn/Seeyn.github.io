@@ -50,15 +50,19 @@
   };
 </script>
 
-  <meta property="og:type" content="article">
-<meta property="og:title" content="什么是mpd文件">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;19&#x2F;%E4%BB%80%E4%B9%88%E6%98%AFmpd%E6%96%87%E4%BB%B6&#x2F;index.html">
+  <meta name="description" content="JDBC理解参考:http:&#x2F;&#x2F;tw.gitbook.net&#x2F;jdbc&#x2F;index.html  JDBC  是 java 开放给程序访问表格型数据的API  JDBC庫包含的API為每個通常與數據庫的使用相關聯的任務：  使得連接到數據庫 創建SQL或MySQL語句 執行SQL或MySQL的查詢數據庫 查看和修改結果記錄  其内部架构包含  DriverManager: 這個類管理數據庫驅動程序的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JDBC理解">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;30&#x2F;JDBC%E7%90%86%E8%A7%A3&#x2F;index.html">
 <meta property="og:site_name" content="Seeyn Blog">
+<meta property="og:description" content="JDBC理解参考:http:&#x2F;&#x2F;tw.gitbook.net&#x2F;jdbc&#x2F;index.html  JDBC  是 java 开放给程序访问表格型数据的API  JDBC庫包含的API為每個通常與數據庫的使用相關聯的任務：  使得連接到數據庫 創建SQL或MySQL語句 執行SQL或MySQL的查詢數據庫 查看和修改結果記錄  其内部架构包含  DriverManager: 這個類管理數據庫驅動程序的">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-19T14:27:27.328Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;tw.gitbook.net&#x2F;uploads&#x2F;allimg&#x2F;140309&#x2F;21591Q624-0.jpg">
+<meta property="og:updated_time" content="2019-10-26T06:15:27.322Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;tw.gitbook.net&#x2F;uploads&#x2F;allimg&#x2F;140309&#x2F;21591Q624-0.jpg">
 
-<link rel="canonical" href="http://yoursite.com/2019/10/19/%E4%BB%80%E4%B9%88%E6%98%AFmpd%E6%96%87%E4%BB%B6/">
+<link rel="canonical" href="http://yoursite.com/2019/10/30/JDBC%E7%90%86%E8%A7%A3/">
 
 
 <script id="page-configurations">
@@ -72,7 +76,7 @@
   };
 </script>
 
-  <title>什么是mpd文件 | Seeyn Blog</title>
+  <title>JDBC理解 | Seeyn Blog</title>
   
 
 
@@ -171,7 +175,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/19/%E4%BB%80%E4%B9%88%E6%98%AFmpd%E6%96%87%E4%BB%B6/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/JDBC%E7%90%86%E8%A7%A3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -184,7 +188,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          什么是mpd文件
+          JDBC理解
         </h1>
 
         <div class="post-meta">
@@ -193,10 +197,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2019-10-19 22:26:17 / Modified: 22:27:27" itemprop="dateCreated datePublished" datetime="2019-10-19T22:26:17+08:00">2019-10-19</time>
+              <time title="Created: 2019-10-30 22:02:37" itemprop="dateCreated datePublished" datetime="2019-10-30T22:02:37+08:00">2019-10-30</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2019-10-26 14:15:27" itemprop="dateModified" datetime="2019-10-26T14:15:27+08:00">2019-10-26</time>
+              </span>
 
           
 
@@ -209,7 +219,26 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        
+        <h3 id="JDBC理解"><a href="#JDBC理解" class="headerlink" title="JDBC理解"></a>JDBC理解</h3><p>参考:<a href="http://tw.gitbook.net/jdbc/index.html" target="_blank" rel="noopener">http://tw.gitbook.net/jdbc/index.html</a></p>
+<p><img src="http://tw.gitbook.net/uploads/allimg/140309/21591Q624-0.jpg" alt="JDBC Architecture"></p>
+<p>JDBC  是 java 开放给程序访问表格型数据的API </p>
+<p>JDBC庫包含的API為每個通常與數據庫的使用相關聯的任務：</p>
+<ul>
+<li>使得連接到數據庫</li>
+<li>創建SQL或MySQL語句</li>
+<li>執行SQL或MySQL的查詢數據庫</li>
+<li>查看和修改結果記錄</li>
+</ul>
+<p>其内部架构包含</p>
+<ul>
+<li>DriverManager: 這個類管理數據庫驅動程序的列表。內容是否符合從Java應用程序使用的通信子協議正確的數據庫驅動程序的連接請求。識彆<a href="http://tw.gitbook.net/jdbc/index.html" target="_blank" rel="noopener">JDBC</a>在一定子協議的第一個驅動器將被用來建立數據庫連接。</li>
+<li>Driver: 此接口處理與數據庫服務器通信。很少直接與驅動程序對象。相反，使用DriverManager中的對象，它管理此類型的對象。它也抽象與驅動程序對象工作相關的詳細信息</li>
+<li>Connection : 此接口與接觸數據庫的所有方法。連接對象表示通信上下文，即，與數據庫中的所有的通信是通過唯一的連接對象。</li>
+<li>Statement : 可以使用這個接口創建的對象的SQL語句提交到數據庫。一些派生的接口接受除執行存儲過程的參數。</li>
+<li>ResultSet: 這些對象保存從數據庫後，執行使用Statement對象的<a href="http://tw.gitbook.net/sql/index.html" target="_blank" rel="noopener">SQL</a>查詢中檢索數據。它作為一個迭代器，讓您可以通過移動它的數據。</li>
+<li>SQLException: 這個類處理發生在一個數據庫應用程序的任何錯誤。</li>
+</ul>
+
     </div>
 
     
@@ -222,13 +251,16 @@
 
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
+                <a href="/2019/10/30/HTTP%20Range/" rel="next" title="HTTP Range">
+                  <i class="fa fa-chevron-left"></i> HTTP Range
+                </a>
             </div>
 
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-                <a href="/2019/10/20/%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" rel="prev" title="创建个人博客">
-                  创建个人博客 <i class="fa fa-chevron-right"></i>
+                <a href="/2019/10/30/Reliable%20Data%20transport/" rel="prev" title="Reliable Data transport">
+                  Reliable Data transport <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
@@ -268,6 +300,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#JDBC理解"><span class="nav-number">1.</span> <span class="nav-text">JDBC理解</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
