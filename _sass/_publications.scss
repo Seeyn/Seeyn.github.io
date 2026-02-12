@@ -40,9 +40,8 @@
       margin-bottom: 1rem;
 
       .preview {
-        float: left;
-        width: 300px !important;
-        margin-right: 1.5rem;
+        display: block;
+        width: 100% !important;
         margin-bottom: 1rem;
 
         img {
