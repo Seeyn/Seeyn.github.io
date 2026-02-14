@@ -297,3 +297,64 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Keyword Highlights
+
+.keyword-highlight {
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  position: relative;
+
+  &.phd {
+    color: var(--global-theme-color);
+    background-color: rgba(38, 152, 186, 0.08);
+
+    &:hover {
+      background-color: rgba(38, 152, 186, 0.15);
+      transform: scale(1.02);
+    }
+  }
+
+  &.university {
+    color: #4a90e2;
+    background-color: rgba(74, 144, 226, 0.08);
+
+    &:hover {
+      background-color: rgba(74, 144, 226, 0.15);
+      transform: scale(1.02);
+    }
+  }
+
+  &.security {
+    color: #f5a623;
+    background-color: rgba(245, 166, 35, 0.08);
+
+    &:hover {
+      background-color: rgba(245, 166, 35, 0.15);
+      transform: scale(1.02);
+    }
+  }
+
+  &.models {
+    color: #7ed321;
+    background-color: rgba(126, 211, 33, 0.08);
+
+    &:hover {
+      background-color: rgba(126, 211, 33, 0.15);
+      transform: scale(1.02);
+    }
+  }
+
+  &.vlm {
+    color: #bd10e0;
+    background-color: rgba(189, 16, 224, 0.08);
+
+    &:hover {
+      background-color: rgba(189, 16, 224, 0.15);
+      transform: scale(1.02);
+    }
+  }
+}
+
+
