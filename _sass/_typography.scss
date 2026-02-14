@@ -17,6 +17,14 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.02em;
 }
 
+// Monospace font
+code,
+kbd,
+pre,
+samp {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Monaco', 'Cascadia Code', monospace;
+}
+
 p,
 h1,
 h2,

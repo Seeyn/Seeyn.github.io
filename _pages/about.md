@@ -26,4 +26,17 @@ latest_posts:
 
 I am a second year PhD student at the University of Illinois at Urbana-Champaign (UIUC), advised by [Dong Wang](https://www.wangdong.org/). My research interests include security issues in generative models and VLMs.
 
-Feel free to reach out via <a href="mailto:zelin3@illinois.edu"><i class="fa-solid fa-envelope"></i> email</a> or check out my <a href="https://scholar.google.com/citations?user=ttpbA4wAAAAJ"><i class="ai ai-google-scholar"></i> Google Scholar</a> profile.
+<div class="contact-grid">
+  <a class="contact-btn" href="mailto:zelin3@illinois.edu">
+    <i class="fa-solid fa-envelope"></i> Email
+  </a>
+  <a class="contact-btn" href="https://github.com/Seeyn" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a class="contact-btn" href="https://scholar.google.com/citations?user=ttpbA4wAAAAJ" target="_blank">
+    <i class="fas fa-graduation-cap"></i> Scholar
+  </a>
+  <a class="contact-btn" href="https://openreview.net/profile?id=~Zelin_Li1" target="_blank">
+    <i class="fas fa-book-open"></i> OpenReview
+  </a>
+</div>
