@@ -360,9 +360,9 @@ ul.task-list input[type="checkbox"] {
 // Typewriter Effect
 
 #bio-typewriter {
-  min-height: 1.5em;
+  height: 120px;
+  overflow-y: auto;
   line-height: 1.7;
-  font-size: 1rem;
   color: var(--global-text-color);
   margin-bottom: 1.5rem;
   padding: 16px 20px;
