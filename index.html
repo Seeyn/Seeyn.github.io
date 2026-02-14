@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', function() {
       typewriterElement.innerHTML = currentText + '<span class="typewriter-cursor">|</span>';
       index++;
 
-      // Variable typing speed
-      const delay = isTag ? 0 : (char === ' ' ? 50 : Math.random() * 50 + 20);
+      // Variable typing speed - faster
+      const delay = isTag ? 0 : (char === ' ' ? 25 : Math.random() * 30 + 10);
       setTimeout(typeCharacter, delay);
     } else {
       // Remove cursor after typing is complete
