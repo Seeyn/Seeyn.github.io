@@ -7,7 +7,7 @@ subtitle: PhD student, University of Illinois at Urbana-Champaign
 profile:
   align: right
   image: me.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a <span class="keyword-highlight phd">second year PhD student</span> at the <span class="keyword-highlight university">University of Illinois at Urbana-Champaign (UIUC)</span>, advised by [Dong Wang](https://www.wangdong.org/). My research interests include <span class="keyword-highlight security">security issues</span> in <span class="keyword-highlight models">generative models</span> and <span class="keyword-highlight vlm">VLMs</span>.
+<div id="bio-typewriter"></div>
 
 <div class="contact-grid">
   <a class="contact-btn" href="mailto:zelin3@illinois.edu">

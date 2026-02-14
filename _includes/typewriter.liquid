@@ -1,0 +1,48 @@
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const typewriterElement = document.getElementById('bio-typewriter');
+  if (!typewriterElement) return;
+
+  const text = `I am a <span class="keyword-highlight phd">second year PhD student</span> at the <span class="keyword-highlight university">University of Illinois at Urbana-Champaign (UIUC)</span>, advised by <a href="https://www.wangdong.org/">Dong Wang</a>. My research interests include <span class="keyword-highlight security">security issues</span> in <span class="keyword-highlight models">generative models</span> and <span class="keyword-highlight vlm">VLMs</span>.`;
+
+  let index = 0;
+  let currentText = '';
+  let isTag = false;
+  let tagBuffer = '';
+
+  function typeCharacter() {
+    if (index < text.length) {
+      const char = text[index];
+
+      if (char === '<') {
+        isTag = true;
+        tagBuffer = '<';
+      } else if (char === '>' && isTag) {
+        isTag = false;
+        tagBuffer += '>';
+        currentText += tagBuffer;
+        tagBuffer = '';
+      } else if (isTag) {
+        tagBuffer += char;
+      } else {
+        currentText += char;
+      }
+
+      typewriterElement.innerHTML = currentText + '<span class="typewriter-cursor">|</span>';
+      index++;
+
+      // Variable typing speed
+      const delay = isTag ? 0 : (char === ' ' ? 50 : Math.random() * 50 + 20);
+      setTimeout(typeCharacter, delay);
+    } else {
+      // Remove cursor after typing is complete
+      setTimeout(() => {
+        typewriterElement.innerHTML = currentText;
+      }, 500);
+    }
+  }
+
+  // Start typing after a short delay
+  setTimeout(typeCharacter, 300);
+});
+</script>
