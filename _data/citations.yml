@@ -1,20 +1,24 @@
 metadata:
-  last_updated: '2026-04-06'
+  last_updated: '2026-04-29'
 papers:
   ttpbA4wAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Component-Based Fairness in Face Attribute Classification with Bayesian Network-informed Meta Learning
     year: '2025'
   ttpbA4wAAAAJ:9yKSN-GCB0IC:
-    citations: 29
+    citations: 37
     title: Modality interactive mixture-of-experts for fake news detection
     year: '2025'
   ttpbA4wAAAAJ:d1gkVwhDpl0C:
-    citations: 0
+    citations: 1
     title: Anti-Tamper Protection for Unauthorized Individual Image Generation
     year: '2025'
+  ttpbA4wAAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: 'Red-Teaming Privacy-Protective Perturbations: Blind Face Restoration as an Attack Strategy'
+    year: '2026'
   ttpbA4wAAAAJ:u-x6o8ySG0sC:
-    citations: 7
+    citations: 8
     title: Analyzing and Combating Attribute Bias for Face Restoration.
     year: '2023'
   ttpbA4wAAAAJ:u5HHmVD_uO8C:
