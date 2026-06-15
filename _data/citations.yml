@@ -1,16 +1,24 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-06-15'
 papers:
   ttpbA4wAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Component-Based Fairness in Face Attribute Classification with Bayesian Network-informed Meta Learning
     year: '2025'
   ttpbA4wAAAAJ:9yKSN-GCB0IC:
-    citations: 39
+    citations: 48
     title: Modality interactive mixture-of-experts for fake news detection
     year: '2025'
-  ttpbA4wAAAAJ:d1gkVwhDpl0C:
+  ttpbA4wAAAAJ:IjCSPb-OGe4C:
     citations: 1
+    title: 'Mind the Ambiguity: Aleatoric Uncertainty Quantification in LLMs for Safe Medical Question Answering'
+    year: '2026'
+  ttpbA4wAAAAJ:UeHWp8X0CEIC:
+    citations: 1
+    title: 'MASH: A Multiplatform and Multimodal Annotated Dataset for Societal Impact of Hurricane'
+    year: '2026'
+  ttpbA4wAAAAJ:d1gkVwhDpl0C:
+    citations: 2
     title: Anti-Tamper Protection for Unauthorized Individual Image Generation
     year: '2025'
   ttpbA4wAAAAJ:qjMakFHDy7sC:
@@ -25,3 +33,7 @@ papers:
     citations: 2
     title: "Cascaded face super\u2010resolution with shape and identity priors"
     year: '2023'
+  ttpbA4wAAAAJ:zYLM7Y9cAGgC:
+    citations: 0
+    title: 'DisImpact: Quantifying the Physi-Social Impact of Natural Disasters Through Social Media'
+    year: '2026'
