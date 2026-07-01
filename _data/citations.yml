@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-06-15'
+  last_updated: '2026-07-01'
 papers:
   ttpbA4wAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Component-Based Fairness in Face Attribute Classification with Bayesian Network-informed Meta Learning
     year: '2025'
   ttpbA4wAAAAJ:9yKSN-GCB0IC:
-    citations: 48
+    citations: 51
     title: Modality interactive mixture-of-experts for fake news detection
     year: '2025'
   ttpbA4wAAAAJ:IjCSPb-OGe4C:
