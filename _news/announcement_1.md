@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two papers accepted to WWW'2026! :tada:
+Two papers accepted to WWW'2026, with a first author one! :tada:
