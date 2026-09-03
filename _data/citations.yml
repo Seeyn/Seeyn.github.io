@@ -1,23 +1,59 @@
 metadata:
-  last_updated: '2026-02-13'
+  last_updated: '2026-09-03'
 papers:
   ttpbA4wAAAAJ:2osOgNQ5qMEC:
     citations: 0
     title: Component-Based Fairness in Face Attribute Classification with Bayesian Network-informed Meta Learning
     year: '2025'
   ttpbA4wAAAAJ:9yKSN-GCB0IC:
-    citations: 21
+    citations: 64
     title: Modality interactive mixture-of-experts for fake news detection
     year: '2025'
-  ttpbA4wAAAAJ:d1gkVwhDpl0C:
+  ttpbA4wAAAAJ:IjCSPb-OGe4C:
+    citations: 2
+    title: Mind the Ambiguity: Aleatoric Uncertainty Quantification in LLMs for Safe Medical Question Answering
+    year: '2026'
+  ttpbA4wAAAAJ:Tyk-4Ss8FVUC:
+    citations: 2
+    title: Learning Decomposed Contextual Token Representations from Pretrained and Collaborative Signals for Generative Recommendation
+    year: '2025'
+  ttpbA4wAAAAJ:UeHWp8X0CEIC:
+    citations: 2
+    title: MASH: A Multiplatform and Multimodal Annotated Dataset for Societal Impact of Hurricane
+    year: '2026'
+  ttpbA4wAAAAJ:W7OEmFMy1HYC:
     citations: 0
+    title: One Size Does Not Fit All: Adaptive Interest Representation Learning for Multi-interest Recommendation
+    year: '2026'
+  ttpbA4wAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: Topology-Aware Tokenization for Generative Recommendation
+    year: '2026'
+  ttpbA4wAAAAJ:YsMSGLbcyi4C:
+    citations: 0
+    title: Beyond Truth Discovery: A Two-Stage Framework to Assess the Severity of False Claim during Disasters
+    year: '2026'
+  ttpbA4wAAAAJ:d1gkVwhDpl0C:
+    citations: 2
     title: Anti-Tamper Protection for Unauthorized Individual Image Generation
     year: '2025'
+  ttpbA4wAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: PropUQ-MAS: Propagation-Aware Uncertainty Quantification for LLM Multi-Agent Systems
+    year: '2026'
+  ttpbA4wAAAAJ:qjMakFHDy7sC:
+    citations: 0
+    title: Red-Teaming Privacy-Protective Perturbations: Blind Face Restoration as an Attack Strategy
+    year: '2026'
   ttpbA4wAAAAJ:u-x6o8ySG0sC:
-    citations: 7
+    citations: 8
     title: Analyzing and Combating Attribute Bias for Face Restoration.
     year: '2023'
   ttpbA4wAAAAJ:u5HHmVD_uO8C:
     citations: 2
-    title: "Cascaded face super\u2010resolution with shape and identity priors"
+    title: Cascaded face super‐resolution with shape and identity priors
     year: '2023'
+  ttpbA4wAAAAJ:zYLM7Y9cAGgC:
+    citations: 1
+    title: DisImpact: Quantifying the Physi-Social Impact of Natural Disasters Through Social Media
+    year: '2026'
