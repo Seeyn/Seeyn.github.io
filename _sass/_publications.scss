@@ -79,6 +79,17 @@
 
       .title {
         font-weight: bolder;
+
+        a {
+          color: var(--global-text-color);
+
+          &:hover {
+            color: var(--global-theme-color);
+            text-decoration: underline;
+            text-decoration-thickness: 0.08em;
+            text-underline-offset: 0.12em;
+          }
+        }
       }
 
       .author {
@@ -109,6 +120,11 @@
       }
 
       .links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.75rem;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
