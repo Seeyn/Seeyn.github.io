@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work was published in ACM ToRS!
+Our work was published in ACM ToRS! :sparkles:

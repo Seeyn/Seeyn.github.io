@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Two of our papers were accepted to ICWSM 2026!
+Two of our papers were accepted to ICWSM 2026! :sparkles:
