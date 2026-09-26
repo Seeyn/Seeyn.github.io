@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One first-author paper accepted to ICCV'2025! :sparkles:
+One first-author paper was accepted to ICCV'2025! :sparkles:
